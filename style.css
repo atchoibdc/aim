@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'gotham_narrowbook';
+    src: url('/fonts/gothamnarrow-book-webfont.woff2') format('woff2'),
+         url('/fonts/gothamnarrow-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    color: #333333;
+    font-family: 'gotham_narrowbook';
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    height: 100vh;
+    background: #0b2355;
+}
+
+button, input[type=submit],
+.btn-custom {
+    color: #002D72;
+    background-color: #ff7d00;
+    padding: 8px 25px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 22px;
+    letter-spacing: 2.2px;
+    line-height: 26.4px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 0;
+    border: transparent;
+}
+
+.btn-custom:hover {
+    background: #002D72;
+    color: #fff;
+}
+.bg-gray {
+    background-color: #E1E1E1;
+}
+
+.text-darkblue {
+    color: #0B2356;
+}
+.text-blue {
+    color: #002D72;
+}
+.text-orange {
+    color: #FF7D00;
+}
+.text-black {
+    color: #000;
+}
+.text-gray {
+    color: #333333;
+}
+
+.container {
+    max-width: 999px;
+}
+
+.accordion {
+    margin-bottom: 33px;
+}
+.accordion-item {
+    border-radius: 0!important;
+    border-color: #002D72;
+    background: transparent;
+}
+.accordion-button {
+    color: #002D72;
+    font-size: 22px;
+    letter-spacing: 2.2px;
+    line-height: 26.4px;
+    background: transparent;
+    font-family: "Bebas Neue", sans-serif;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 1px solid #002D72;
+}
+.accordion-collapse {
+    background-color: #fff;
+}
+.career-title {
+    font-size: 22px;
+    letter-spacing: 2.2px;
+    line-height: 26.4px;
+}
+.accordion-body {
+    font-size: 12px;
+    line-height: 14.4px;
+}
+header {
+    background: #030a18 url("/images/AIm_Header.jpg") center no-repeat;
+    background-size: cover;
+    height: 679px;
+}
+header h1 {
+    font-size: 55px;
+    letter-spacing: 2.75px;
+    line-height: 57px;
+}
+header h4 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 28px;
+    letter-spacing: 3px;
+    line-height: 33px;
+}
+header p {
+    font-size: 7px;
+    letter-spacing: 0px;
+    line-height: 8.4px;
+}
+
+#about {
+    background: #0B2356;
+    position: relative;
+    padding: 70px 0;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 25.82px;
+}
+
+#about .container {
+    position: relative;
+}
+
+#about h2 {
+    font-size: 55px;
+    font-weight: 600;
+    letter-spacing: 2.75px;
+    line-height: 60px;
+}
+
+#about .img-absolute {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    height: 780px;
+}
+
+.statistics {
+    padding: 30px 0;
+}
+
+.statistics div {
+    padding: 0 40px;
+}
+
+.statistics h3 {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2.46px;
+    line-height: 55px;
+}
+.statistics p {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+#career-pathways {
+    background: #fff url("/images/AIM_LP_Background_Texture.jpg") center center no-repeat;
+    padding: 70px 0 140px;
+}
+
+#career-pathways h3 {
+    font-size: 31px;
+    letter-spacing: 3.1px;
+    line-height: 37.2px;
+}
+
+#career-pathways h2 {
+    font-weight: 600;
+    font-size: 49.12px;
+    letter-spacing: 2.46px;
+    line-height: 55.26px;
+}
+
+#choose-aim {
+    padding-bottom: 60px;
+}
+
+#choose-aim .container {
+    margin-top: -70px;
+    padding: 40px 60px 54px;
+    position: relative;
+    height: 795px;
+    box-shadow: 0px 0px 20px #00000066;
+}
+
+#choose-aim h2 {
+    font-size: 45.88px;
+    line-height: 51.56px;
+    font-weight: 600;
+}
+
+.choose-aim-img {
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    max-height: 780px;
+}
+
+.offers {
+    padding: 20px 27px
+}
+
+.offers .offer img {
+    padding-top: 10px;
+}
+.offer:nth-child(2),
+.offer:nth-child(5) {
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.offer:nth-child(1),
+.offer:nth-child(2),
+.offer:nth-child(3) {
+    border-bottom: 1px solid #fff;
+}
+
+.offers p {
+    font-size: 17.45px;
+    letter-spacing: 1px;
+}
+
+#partners {
+    background-color: #fff;
+    padding: 35px 0 35px;
+}
+
+#partners h3 {
+    font-size: 33px;
+    letter-spacing: 3.3px;
+    line-height: 1.2;
+}
+
+#partners h2 {
+    font-size:49.12px;
+    letter-spacing: 2.46px;
+    line-height: 55.26px;
+}
+
+footer .footer-top {
+    font-size: 12px;
+    max-width: 744px;
+    line-height: 1.3;
+}
+
+footer .footer-top img {
+    height: 30px;
+    margin-right: 20px;
+}
+footer .footer-bottom {
+    font-size: 12px;
+}
